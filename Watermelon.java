@@ -3,9 +3,9 @@ import java.util.*;
 public class Watermelon {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int w = sc.nextInt();
+        int weight = sc.nextInt();
 
-        if (w % 2 == 0 && w > 2) {
+        if (weight % 2 == 0 && weight > 2) {
             System.out.println("Yes");
         } else {
             System.out.println("No");
